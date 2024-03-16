@@ -1,0 +1,8 @@
+{
+  // dir of spike is: `../riscv-isa-sim`
+  "terminal.integrated.env.linux": {
+    "EXT_PATH": "${workspaceFolder}/build/install/bin:${workspaceFolder}/../riscv-isa-sim/build/install/bin",
+  },
+  "files.trimTrailingWhitespace": false,
+  "files.insertFinalNewline": false,
+}
