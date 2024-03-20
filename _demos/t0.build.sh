@@ -2,7 +2,8 @@
 
 mkdir -p build && pushd build
 
-RISCV=/opt/riscv_llvm_newlib
+# RISCV=/opt/riscv_llvm_newlib
+RISCV=/opt/riscv
 
 CC=$RISCV/bin/riscv64-unknown-elf-gcc \
   CXX=$RISCV/bin/riscv64-unknown-elf-g++ \
