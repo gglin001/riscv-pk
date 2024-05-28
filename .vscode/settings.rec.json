@@ -6,4 +6,8 @@
   },
   "files.trimTrailingWhitespace": false,
   "files.insertFinalNewline": false,
+  "files.exclude": {
+    "build/*.d": true,
+    "build/*.o": true,
+  }
 }
